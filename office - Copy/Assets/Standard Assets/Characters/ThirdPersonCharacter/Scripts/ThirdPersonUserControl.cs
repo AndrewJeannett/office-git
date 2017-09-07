@@ -12,6 +12,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
+		//tank control speeds
+		public float moveSpeed = 3.0f;
+		public float rotationSpeed = 190.0f;
 
         
         private void Start()
@@ -53,9 +56,15 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // calculate move direction to pass to character
             if (m_Cam != null)
             {
+				//tanks controls?
+				//GetComponent<Rigidbody>().velocity = transform.forward * moveSpeed * v;
+				m_Move = transform.forward * moveSpeed * v;
+				transform.Rotate(Vector3.up * rotationSpeed * h * Time.deltaTime);
+				Debug.Log (moveSpeed);
+
                 // calculate camera relative direction to move:
-                m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
-                m_Move = v*m_CamForward + h*m_Cam.right;
+//                m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
+//                m_Move = v*m_CamForward + h*m_Cam.right;
             }
             else
             {
