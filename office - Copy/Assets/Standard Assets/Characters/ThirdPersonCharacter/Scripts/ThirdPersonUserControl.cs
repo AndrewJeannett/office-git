@@ -60,7 +60,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				//GetComponent<Rigidbody>().velocity = transform.forward * moveSpeed * v;
 				m_Move = transform.forward * moveSpeed * v;
 				transform.Rotate(Vector3.up * rotationSpeed * h * Time.deltaTime);
-				Debug.Log (moveSpeed);
 
                 // calculate camera relative direction to move:
 //                m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
