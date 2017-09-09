@@ -62,6 +62,17 @@ ModelImporter:
     4300016: Box07
     4300018: Box08
     4300020: Table
+    6400000: Box01
+    6400002: Box02
+    6400004: Box03
+    6400006: Box04
+    6400008: Box05
+    6400010: Box06
+    6400012: Box07
+    6400014: Box08
+    6400016: Cab01
+    6400018: Cab02
+    6400020: Table
   materials:
     importMaterials: 1
     materialName: 0
@@ -88,7 +99,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
