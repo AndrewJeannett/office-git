@@ -357,6 +357,74 @@ ModelImporter:
     4300130: BookFixed4
     4300132: BookFixed3
     4300134: BookFixed2
+    6400000: apple1
+    6400002: apple2
+    6400004: ArmChair
+    6400006: Bannana2
+    6400008: Bannana3
+    6400010: Bannana4
+    6400012: Book_Shelf
+    6400014: BookFixed1
+    6400016: BookFixed10
+    6400018: BookFixed11
+    6400020: BookFixed12
+    6400022: BookFixed14
+    6400024: BookFixed15
+    6400026: BookFixed18
+    6400028: BookFixed19
+    6400030: BookFixed2
+    6400032: BookFixed20
+    6400034: BookFixed3
+    6400036: BookFixed4
+    6400038: BookFixed5
+    6400040: BookFixed6
+    6400042: BookFixed7
+    6400044: BookFixed8
+    6400046: BookFixed9
+    6400048: bottomCab2:polySurface1
+    6400050: cabinetTop1:Kitchen_Top_Cabinet_01
+    6400052: cabinetTop3:Kitchen_Top_Cabinet_03
+    6400054: Chimney
+    6400056: clock 1
+    6400058: Clock_Handle_Hours
+    6400060: Clock_Handle_Minutes
+    6400062: Clock_Handle_Seconds
+    6400064: Coffee_Table
+    6400066: Coffee_Table_Rug
+    6400068: Computer_AIO
+    6400070: Couch
+    6400072: Couch_Table
+    6400074: counter:Kitchen_Counter
+    6400076: Desk
+    6400078: Desk_Chair
+    6400080: Door1
+    6400082: faucet:Faucet
+    6400084: fridge1:Refrigirator
+    6400086: frontRug:Coffee_Table_Rug.001
+    6400088: Icosphere6
+    6400090: Keyboard
+    6400092: KitchenCabinetFrontBottom
+    6400094: KitchenChair
+    6400096: KitchenChair2
+    6400098: KitchenChair22
+    6400100: KitchenChair222
+    6400102: kitchenRug:Kitchen_Rug
+    6400104: kitchenTable:Kitchen Table
+    6400106: kShelf:Kitchen_Top_Shelf
+    6400108: kTopCab2:Kitchen_Top_Cabinet_02
+    6400110: microwave:Microwave
+    6400112: Mouse
+    6400114: orange1
+    6400116: Pear1
+    6400118: Pear2
+    6400120: stove:Oven
+    6400122: tv2:TV
+    6400124: TV_Stand
+    6400126: Walls
+    6400128: window2:Window_03
+    6400130: Window_06_fixed
+    6400132: Window_06_fixed1
+    6400134: Window_06_fixed2
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -384,10 +452,10 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
